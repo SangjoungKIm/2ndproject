@@ -1,0 +1,1172 @@
+.fixed-box {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    z-index: 10;
+}
+
+.fixed-box1 {
+    position: relative;
+    margin: 0 auto;
+    height: 1062px;
+    max-width: 576px;
+    width: 100%;
+    padding: 5px;
+}
+
+.fixed-box10 {
+    position: relative;
+    margin: 170px auto 0 auto;
+    max-width: 576px;
+    width: 100%;
+    padding: 5px;
+}
+
+.fixed-box6 {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    align-items: center;
+    z-index: 10;
+}
+
+.fixed-box7 {
+    margin: 0 auto;
+    height: 602px;
+    max-width: 576px;
+    width: 100%;
+    padding: 5px;
+}
+
+.fixed-box8,
+.fixed-box9 {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    z-index: 10;
+}
+
+.parent {
+    position: relative;
+}
+
+.parent1 {
+    position: relative;
+    margin-top: -120px;
+    top: 120px;
+}
+
+#div1 {
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+#div2 {
+    margin: auto;
+}
+
+#main {
+    cursor: pointer;
+}
+
+#logo {
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+#main_main,
+#main_sizang,
+#main_infor,
+#main_sns,
+#main_ask {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+#main_search {
+    cursor: pointer;
+    margin: 2000px auto 0 auto;
+    font-size: 30px;
+    display: block;
+    width: fit-content;
+}
+
+#search,
+#chat,
+#my {
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#span {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+#header {
+    position: fixed;
+    background-color: rgb(30, 131, 255);
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    width: 100%;
+    max-width: 570px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.login-group {
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#footer {
+    position: fixed;
+    background-color: rgb(30, 131, 255);
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 570px;
+    height: 50px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#login {
+    font-size: 50px;
+    text-align: center;
+}
+
+#login_div {
+    background-color: rgb(30, 131, 255);
+    padding: 10px;
+}
+
+#img1 {
+    display: block;
+    margin: 100px auto 0 auto;
+}
+
+.login_div1 {
+    padding: 0 20px;
+}
+
+.login_div2 {
+    background-color: whitesmoke;
+    margin: 70px auto 0 auto;
+    width: 100%;
+    max-width: 570px;
+    height: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.passsearch {
+    cursor: pointer;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#button {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    max-width: 330px;
+    height: 60px;
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+#passsearch1 {
+    cursor: pointer;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#img2 {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    
+    margin: 0 auto;
+}
+
+.span1,
+.span2 {
+    font-size: 40px;
+    display: inline;
+    text-align: center;
+}
+
+.login-header-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.login_h,
+.login_h1,
+.login_h2,
+.login_h3 {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+}
+
+.login_h,
+.login_h1 {
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#button2,
+#button3 {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#button1 {
+    width: 145px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#fixed_box3,
+#fixed_box4 {
+    position: relative;
+    margin: 120px auto 0 auto;
+    background-color: white;
+    max-width: 570px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#fixed_box3 {
+    height: 900px;
+    overflow-y: scroll;
+}
+
+#fixed_box4 {
+    height: 1000px;
+    margin-top: -0px;
+    top: 110px;
+}
+
+#fixed_box5 {
+    position: relative;
+    margin: 120px auto 0 auto;
+    background-color: white;
+    max-width: 570px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    min-height: 920px;
+    max-height: 920px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: -0px;
+    top: 110px;
+}
+
+.fixed-box4 {
+    position: relative;
+    margin: 0 auto;
+    height: 1062px;
+    max-width: 576px;
+    width: 100%;
+    padding: 5px;
+}
+
+.ask-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px auto 0 auto;
+    max-width: 570px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ask-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#imageUpload {
+    margin-bottom: 20px;
+}
+
+#imagePreview {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    background-color: #f9f9f9;
+}
+
+#imagePreview img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.analyze-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(30, 131, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.analyze-button:hover {
+    background-color: rgb(20, 100, 200);
+}
+
+.result-section {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.result-box {
+    margin: 10px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100px;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+#imagePreview1 {
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    height: 100px;
+    background-color: #f9f9f9;
+}
+
+#info_div1,
+#info_div2 {
+    border: 1px solid black;
+    background-color: rgb(243, 243, 243);
+    max-width: 557px;
+    width: 100%;
+    border-radius: 2%;
+    margin: 10px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.info_b {
+    margin-left: 20px;
+}
+
+#li1 {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#li1:hover {
+    color: blue;
+}
+
+.fixed-box5 {
+    position: relative;
+    margin: 0 auto;
+    height: 1062px;
+    max-width: 576px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(30, 131, 255)
+}
+
+.login_div20,
+.login_div21 {
+    background-color: whitesmoke;
+    margin: 70px auto 0 auto;
+    max-width: 570px;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#div4 {
+    overflow-y: scroll;
+}
+
+/* Generic container for pages */
+.page-container {
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+    max-width: 570px;
+    min-height: 1050px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#div50,
+.chat_div,
+.sizang_div,
+.infor_div,
+.sns_div,
+.ask_div,
+.cooker_div,
+.main_div,
+.my_div,
+.search_div,
+.upload_div,
+.member_div,
+.passchange_div,
+.passchanges_div,
+.deleteaccount_div,
+.authcontext_div,
+.dbconfig_div,
+.fishpricecontrols_div,
+.fishpricetable_div,
+.footer_div,
+.header_div,
+.main_ask_div,
+.main_ask1_div,
+.main_ask2_div,
+.main_infor_div,
+.main_infor1_div,
+.main_sizang_div,
+.main_sns_div,
+.main_jsx_div,
+.map_html_div,
+.member_jsx_div,
+.my_jsx_div,
+.passchange_jsx_div,
+.passchanges_jsx_div,
+.search_jsx_div,
+.upload_jsx_div,
+.deleteaccount_jsx_div,
+.fishprice_css_div,
+.main_css_div,
+.app_css_div,
+.index_css_div,
+.app_jsx_div,
+.assets_div,
+.code_div,
+.img_div,
+.style_div,
+.public_div,
+.node_modules_div,
+.uploads_div,
+.gitignore_div,
+.eslint_config_js_div,
+.index_html_div,
+.package_lock_json_div,
+.package_json_div,
+.readme_md_div,
+.server_js_div,
+.vite_config_js_div,
+.src_div,
+.dist_div,
+.build_div,
+.test_div,
+.demo_div,
+.scripts_div,
+.docs_div,
+.examples_div,
+.config_div,
+.data_div,
+.lib_div,
+.components_div,
+.hooks_div,
+.utils_div,
+.services_div,
+.routes_div,
+.pages_div,
+.views_div,
+.themes_div,
+.styles_div,
+.plugins_div,
+.middleware_div,
+.validation_div,
+.helpers_div,
+.constants_div,
+.containers_div,
+.layouts_div,
+.common_div,
+.core_div,
+.shared_div,
+.modules_div,
+.features_div,
+.store_div,
+.reducers_div,
+.actions_div,
+.selectors_div,
+.sagas_div,
+.epics_div,
+.types_div,
+.interfaces_div,
+.models_div,
+.enums_div,
+.schemas_div,
+.context_div,
+.providers_div,
+.api_div,
+.graphql_div,
+.rest_div,
+.websocket_div,
+.webrtc_div,
+.grpc_div,
+.firebase_div,
+.amplify_div,
+.supabase_div,
+.auth0_div,
+.okta_div,
+.cognito_div,
+.passport_div,
+.jwt_div,
+.oauth_div,
+.openid_div,
+.saml_div,
+.ldap_div,
+.kerberos_div,
+.radius_div,
+.tacacs_div,
+.diameter_div,
+.eap_div,
+.peap_div,
+.eap_tls_div,
+.eap_ttls_div,
+.eap_fast_div,
+.eap_sim_div,
+.eap_aka_div,
+.eap_aka_prime_div,
+.eap_gtc_div,
+.eap_ikev2_div,
+.eap_mschapv2_div,
+.eap_pwd_div,
+.eap_pax_div,
+.eap_psk_div,
+.eap_sake_div,
+.eap_gpsk_div,
+.eap_vendor_specific_div,
+.chap_div,
+.mschap_div,
+.mschapv2_div,
+.pap_div,
+.srp_div,
+.digest_md5_div,
+.ntlm_div,
+.cram_md5_div,
+.login_div,
+.logout_div,
+.register_div,
+.profile_div,
+.settings_div,
+.dashboard_div,
+.admin_div {
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+    max-width: 570px;
+    min-height: 1050px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.container,
+.container1,
+.container2,
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f2f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+    width: 100%;
+}
+
+.title,
+.title1,
+.title2,
+.title3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group,
+.form-group1 {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label,
+.form-group1 label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group1 input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button-group,
+.button-group1,
+.button-group2,
+.button-group3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.button-group button,
+.button-group1 button,
+.button-group2 button,
+.button-group3 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.save-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.cancel-button:hover {
+    background-color: #e53935;
+}
+
+.change-password-button {
+    background-color: #007BFF;
+    color: white;
+}
+
+.change-password-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-account-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-account-button:hover {
+    background-color: #e53935;
+}
+
+.logout-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+.logout-button:hover {
+    background-color: #5a6268;
+}
+
+.message {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.confirm-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.confirm-button:hover {
+    background-color: #e53935;
+}
+
+.cancel-button3 {
+    background-color: #6c757d;
+    color: white;
+}
+
+.cancel-button3:hover {
+    background-color: #5a6268;
+}
+
+.chat-section-container {
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 100%;
+    max-width: 550px;
+    height: 800px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.chat-input-area {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+#chat_input,
+#sizang_input,
+#infor_input,
+#sns_input,
+#ask_input,
+#cooker_input,
+#main_input,
+#my_input,
+#search_input,
+#upload_input,
+#member_input,
+#passchange_input,
+#passchanges_input,
+#deleteaccount_input,
+#authcontext_input,
+#dbconfig_input,
+#fishpricecontrols_input,
+#fishpricetable_input,
+#footer_input,
+#header_input,
+#main_ask_input,
+#main_ask1_input,
+#main_ask2_input,
+#main_infor_input,
+#main_infor1_input,
+#main_sizang_input,
+#main_sns_input,
+#main_jsx_input,
+#map_html_input,
+#member_jsx_input,
+#my_jsx_input,
+#passchange_jsx_input,
+#passchanges_jsx_input,
+#search_jsx_input,
+#upload_jsx_input,
+#deleteaccount_jsx_input,
+#fishprice_css_input,
+#main_css_input,
+#app_css_input,
+#index_css_input,
+#app_jsx_input,
+#assets_input,
+#code_input,
+#img_input,
+#style_input,
+#public_input,
+#node_modules_input,
+#uploads_input,
+#gitignore_input,
+#eslint_config_js_input,
+#index_html_input,
+#package_lock_json_input,
+#package_json_input,
+#readme_md_input,
+#server_js_input,
+#vite_config_js_input,
+#src_input,
+#dist_input,
+#build_input,
+#test_input,
+#demo_input,
+#scripts_input,
+#docs_input,
+#examples_input,
+#config_input,
+#data_input,
+#lib_input,
+#components_input,
+#hooks_input,
+#utils_input,
+#services_input,
+#routes_input,
+#pages_input,
+#views_input,
+.themes_input,
+.styles_input,
+.plugins_input,
+.middleware_input,
+.validation_input,
+.helpers_input,
+.constants_input,
+.containers_input,
+.layouts_input,
+.common_input,
+.core_input,
+.shared_input,
+.modules_input,
+.features_input,
+.store_input,
+.reducers_input,
+.actions_input,
+.selectors_input,
+.sagas_input,
+.epics_input,
+.types_input,
+.interfaces_input,
+.models_input,
+.enums_input,
+.schemas_input,
+.context_input,
+.providers_input,
+.api_input,
+.graphql_input,
+.rest_input,
+.websocket_input,
+.webrtc_input,
+.grpc_input,
+.firebase_input,
+.amplify_input,
+.supabase_input,
+.auth0_input,
+.okta_input,
+.cognito_input,
+.passport_input,
+.jwt_input,
+.oauth_input,
+.openid_input,
+.saml_input,
+.ldap_input,
+.kerberos_input,
+.radius_input,
+.tacacs_input,
+.diameter_input,
+.eap_input,
+.peap_input,
+.eap_tls_input,
+.eap_ttls_input,
+.eap_fast_input,
+.eap_sim_input,
+.eap_aka_input,
+.eap_aka_prime_input,
+.eap_gtc_input,
+.eap_ikev2_input,
+.eap_mschapv2_input,
+.eap_pwd_input,
+.eap_pax_input,
+.eap_psk_input,
+.eap_sake_input,
+.eap_gpsk_input,
+.eap_vendor_specific_input,
+.chap_input,
+.mschap_input,
+.mschapv2_input,
+.pap_input,
+.srp_input,
+.digest_md5_input,
+.ntlm_input,
+.cram_md5_input,
+.login_input,
+.logout_input,
+.register_input,
+.profile_input,
+.settings_input,
+.dashboard_input,
+.admin_input {
+    flex-grow: 1;
+    height: 50px;
+}
+
+#chat_button,
+#sizang_button,
+#infor_button,
+#sns_button,
+#ask_button,
+#cooker_button,
+#main_button,
+#my_button,
+#search_button,
+#upload_button,
+#member_button,
+#passchange_button,
+#passchanges_button,
+#deleteaccount_button,
+#authcontext_button,
+#dbconfig_button,
+#fishpricecontrols_button,
+#fishpricetable_button,
+#footer_button,
+#header_button,
+#main_ask_button,
+#main_ask1_button,
+#main_ask2_button,
+#main_infor_button,
+#main_infor1_button,
+#main_sizang_button,
+#main_sns_button,
+#main_jsx_button,
+#map_html_button,
+#member_jsx_button,
+#my_jsx_button,
+#passchange_jsx_button,
+#passchanges_jsx_button,
+#search_jsx_button,
+#upload_jsx_button,
+#deleteaccount_jsx_button,
+#fishprice_css_button,
+#main_css_button,
+#app_css_button,
+#index_css_button,
+#app_jsx_button,
+#assets_button,
+#code_button,
+#img_button,
+#style_button,
+#public_button,
+#node_modules_button,
+#uploads_button,
+#gitignore_button,
+#eslint_config_js_button,
+#index_html_button,
+#package_lock_json_button,
+#package_json_button,
+#readme_md_button,
+#server_js_button,
+#vite_config_js_button,
+#src_button,
+#dist_button,
+#build_button,
+#test_button,
+#demo_button,
+#scripts_button,
+#docs_button,
+#examples_button,
+#config_button,
+#data_button,
+#lib_button,
+#components_button,
+#hooks_button,
+#utils_button,
+#services_button,
+#routes_button,
+#pages_button,
+#views_button,
+.themes_button,
+.styles_button,
+.plugins_button,
+.middleware_button,
+.validation_button,
+.helpers_button,
+.constants_button,
+.containers_button,
+.layouts_button,
+.common_button,
+.core_button,
+.shared_button,
+.modules_button,
+.features_button,
+.store_button,
+.reducers_button,
+.actions_button,
+.selectors_button,
+.sagas_button,
+.epics_button,
+.types_button,
+.interfaces_button,
+.models_button,
+.enums_button,
+.schemas_button,
+.context_button,
+.providers_button,
+.api_button,
+.graphql_button,
+.rest_button,
+.websocket_button,
+.webrtc_button,
+.grpc_button,
+.firebase_button,
+.amplify_button,
+.supabase_button,
+.auth0_button,
+.okta_button,
+.cognito_button,
+.passport_button,
+.jwt_button,
+.oauth_button,
+.openid_button,
+.saml_button,
+.ldap_button,
+.kerberos_button,
+.radius_button,
+.tacacs_button,
+.diameter_button,
+.eap_button,
+.peap_button,
+.eap_tls_button,
+.eap_ttls_button,
+.eap_fast_button,
+.eap_sim_button,
+.eap_aka_button,
+.eap_aka_prime_button,
+.eap_gtc_button,
+.eap_ikev2_button,
+.eap_mschapv2_button,
+.eap_pwd_button,
+.eap_pax_button,
+.eap_psk_button,
+.eap_sake_button,
+.eap_gpsk_button,
+.eap_vendor_specific_button,
+.chap_button,
+.mschap_button,
+.mschapv2_button,
+.pap_button,
+.srp_button,
+.digest_md5_button,
+.ntlm_button,
+.cram_md5_button,
+.login_button,
+.logout_button,
+.register_button,
+.profile_button,
+.settings_button,
+.dashboard_button,
+.admin_button {
+    width: 70px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.chat-title {
+    text-align: center;
+}
+
+.chat-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.chat-bubble-user {
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.chat-bubble-other {
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 5%;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.chat-messages-container {
+    overflow-y: scroll;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
